@@ -3,7 +3,7 @@ services:
     build:
       args:
         uid: 1000
-        user: $USER
+        user: app
         container_project_path: /var/www/html/
       context: .
       dockerfile: ./Dockerfile
